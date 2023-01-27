@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sofia+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>O2</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-up">
+                <ul class="header-up__links">
+                    <li class="header-up__link">
+                        <a href="#">
+                            <img src="img/Icon6.png" alt="">
+                            <p>Москва</p>
+                        </a>
+                    </li>
+                    <li class="header-up__link">
+                        <a href="#">
+                            <img src="img/Icon5.png" alt="">
+                            <p>Доставка и оплата</p>
+                        </a>
+                    </li>
+                    <li class="header-up__link">
+                        <a href="#">
+                            <img src="img/Icon4.png" alt="">
+                            <p>Адрес и часы работы</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="header-up__infos">
+                    <li class="header-up__info">
+                        <a href="#">
+                            <img src="img/Icon3.png" alt="">
+                            <p>market@estatut.ru</p>
+                        </a>
+                    </li>
+                    <li class="header-up__info">
+                        <a href="#">
+                            <img src="img/Icon2.png" alt="">
+                            <p>8 (968) 660-65-50</p>
+                            <img class="icon-help" src="img/Icon.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="hr">
+            <div class="header-down">
+                <div class="header-down_1">
+                    <div class="up">
+                        <img class="web-logo" src="img/logo (1).png" alt="">
+                        <form class="form_search" action="">
+                            <input name="search" placeholder="Автор, название, ISBN" type="search">
+                            
+                            <button class="searchButton" type="submit"><img src="img/IconFind.png" alt="">Искать</button>
+                        </form>
+                    </div>
+                    <div class="down">
+                        <ul class="down__menu">
+                            <li class="down__menu-item">
+                                <a href="#">
+                                    <img src="img/catalog.png" alt="">
+                                    <p>Каталог</p>
+                                </a>
+                            </li>
+                            <li class="down__menu-item">
+                                <a href="#">
+                                    <p>Авторы</p>
+                                </a>
+                            </li>
+                            <li class="down__menu-item">
+                                <a href="#">
+                                    <p>Новинки</p>
+                                </a>
+                            </li>
+                            <li class="down__menu-item sales">
+                                <a href="#">
+                                    <img src="img/Iconsalve.png" alt="">
+                                    <p>Скидки</p>
+                                </a>
+                            </li>
+                            <li class="down__menu-item">
+                                <a href="#">
+                                    <p>Партнёрам</p>
+                                </a>
+                            </li>
+                            <li class="down__menu-item">
+                                <a href="#">
+                                    <p>Мы</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="links_list">
+                    <ul class="header-down__links">
+                        <li class="header-down__link">
+                            <a href="">
+                                <img src="img/Icon7.png" alt="">
+                                <p>Отложено</p>
+                            </a>
+                        </li>
+                        <li class="header-down__link">
+                            <a href="">
+                                <img src="img/Icon8.png" alt="">
+                                <p>Войти</p>
+                            </a>
+                        </li>
+                        <li class="header-down__link">
+                            <a href="">
+                                <div class="price">
+                                    <p>10</p>
+                                </div>
+                                <img class="korzina" src="img/Icon9.png" alt="">
+                                <p>Корзина</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-header">
+            <div class="mobile-container">
+                <img class="burger" src="img/catalog.png" alt="">
+                <div class="mobile_logo ">
+                    <img src="img/logo (1).png" alt="">
+                </div>
+                <form class="mobile_form_search" action="">
+                    <input class="search_input" name="search" placeholder="Что поищем?" type="search">
+                    <div class="findImg"><img src="img/IconFingGrey.png" alt=""></div>
+                </form>
+                <div class="mobile_korzina">
+                    <img src="img/Icon9.png" alt="" class="korzina">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="benefit">
+            <div class="container">
+                <div class="benefits">
+                    <div class="benefit__slider">
+                        <div class="slide-1"><h2>2 = 1 </h2> <br> <p> на все книги</p></div>
+                        <div class="slide-2"></div>
+                    </div>
+                    <div class="down-slider">
+                        <div class="down-slider1 item">
+                            <p class="down_description">Бесплатно доставим <br> ваш заказ при <br>  покупке от 2000 ₽</p>
+                            <img src="img/TDV_M46_03.png" alt="">
+                        </div>
+                        <div class="down-slider2 item">
+                            <p class="down_description">Скидка <br> при регистрации до 15%</p>
+                            <img src="img/Illustration2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit_book-otd book-wrap">
+                    <div class="time"><span>08:56:31</span></div>
+                    <span class="book-otd">Книга дня</span>
+                    <img src="img/image 213.png" alt="" class="book_img">
+                    <span class="book_field">Корпоративное право</span>
+                    <span class="book_title">Инвестирование: способы, риски, субъекты : монография</span>
+                    <span class="book_author">Майфат А.В.</span>
+                    <span class="book_price">4 450 ₽</span>
+                    <div class="book_btns">
+                        <div class="btn_add"><img src="img/Icon10.png" alt=""><span>В корзину</span></div>
+                        <div class="btn_bookmark"><img src="img/Icon7.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-benefit">
+            <div class="mobile-container">
+                <div class="mobile_benefit__slider">
+                    <div class="slide-1"><h2>2 = 1 </h2> <br> <p> на все книги</p></div>
+                    <div class="slide-2"></div>
+                </div>
+                <div class="mobile_benefit_book-otd book-wrap mobile_book-wrap">
+                    <div class="time"><span>08:56:31</span></div>
+                    <span class="book-otd">Книга дня</span>
+                    <img src="img/image 213.png" alt="" class="book_img">
+                    <span class="book_field">Корпоративное право</span>
+                    <span class="book_title">Инвестирование: способы, риски, субъекты : монография</span>
+                    <span class="book_author">Майфат А.В.</span>
+                    <span class="book_price">4 450 ₽</span>
+                    <div class="book_btns">
+                        <div class="btn_add"><img src="img/Icon10.png" alt=""><span>В корзину</span></div>
+                        <div class="btn_bookmark"><img src="img/Icon7.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="down-slider">
+                    <div class="down-slider1 item">
+                        <p class="down_description">Бесплатно доставим <br> ваш заказ при <br>  покупке от 2000 ₽</p>
+                        <img src="img/TDV_M46_03.png" alt="">
+                    </div>
+                    <div class="down-slider2 item">
+                        <p class="down_description">Скидка <br> при регистрации до 15%</p>
+                        <img src="img/Illustration2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrivals">
+            <div class="container">
+                <div class="new-arrivals slider-up">
+                    <h3 class="title">Новые поступления</h3>
+                    <div class="up_btns">
+                        <button class="slide2-prev slide-btn"> < </button>
+                        <button class="slide2-next slide-btn"> > </button>
+                    </div>
+                </div>
+                <div class="arriv_slider">
+                    <div class="wrap-book book-first">
+                        <div class="labels">
+                            <div class="betseller  item"><span>Бестселлер</span></div>
+                            <div class="new item "><span>Новинка</span></div>
+                            <div class="three item"><span>1+1=3</span></div>
+                        </div>
+                        <img src="img/image 142.png" alt="" class="book_img">
+                        <span class="book_field">Корпоративное право</span>
+                        <span class="book_title">Инвестирование: способы, риски, субъекты : монография</span>
+                        <span class="book_author">Майфат А.В.</span>
+                        <span class="book_price">4 450 ₽</span>
+                        <div class="recommend">
+                            <div class="star"><img src="img/🔹 Icon Color.png" alt=""><span>4,9</span></div>
+                            <div class="recom"><img src="img/Icon15.png" alt=""><span>89% рекомендуют</span></div>
+                        </div>
+                        <div class="book_btns">
+                            <div class="btn_add">
+                                <img src="img/Icon10.png" alt="">
+                                <span>В корзину</span>
+                            </div>
+                            <div class="btn_mark">
+                                <img src="img/Icon7.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-book book-second">
+                        <div class="labels">
+                            <div class="betseller item"><span>Бестселлер</span></div>
+                            <div class="new item"><span>Новинка</span></div>
+                            <div class="three item"><span>1+1=3</span></div>
+                        </div>
+                        <img src="img/image 145.png" alt="" class="book_img">
+                        <span class="book_field">Договорное право</span>
+                        <span class="book_title">Договор коммерческой концессии (франчайзинг). Граж...</span>
+                        <span class="book_author">Багдасарян А.Ф.</span>
+                        <span class="book_price">372 ₽ </span>
+                        <div class="recommend">
+                            <div class="star"><img src="img/🔹 Icon Color.png" alt=""><span>4,9</span></div>
+                            <div class="recom"><img src="img/Icon15.png" alt=""><span>89% рекомендуют</span></div>
+                        </div>
+                        <div class="book_btns">
+                            <div class="btn_add">
+                                <img src="img/Icon9.png" alt="">
+                                <span>В корзину</span>
+                            </div>
+                            <div class="btn_mark">
+                                <img src="img/Icon10.png" alt="">
+                            </div>
+                        </div></div>
+                    <div class="wrap-book book-third">
+                        <div class="labels">
+                            <div class="betseller item"><span>Бестселлер</span></div>
+                            <div class="new item"><span>Новинка</span></div>
+                            <div class="three item"><span>1+1=3</span></div>
+                        </div>
+                        <img src="img/image 140.png" alt="" class="book_img">
+                        <span class="book_field">Корпоративное право</span>
+                        <span class="book_title">Договор коммерческой концессии (франчайзинг). Граж...</span>
+                        <span class="book_author">Башлаков-Николаев И.В.</span>
+                        <div class="book_price">
+                            <span class="price_current">984 ₽</span>
+                            <span class="price_prever">1 284 ₽</span>
+                            <span class="price_prof">Выгода 300 ₽</span>
+                        </div>
+                        <div class="recommend">
+                            <div class="star"><img src="img/🔹 Icon Color.png" alt=""><span>4,9</span></div>
+                            <div class="recom"><img src="img/Icon15.png" alt=""><span>89% рекомендуют</span></div>
+                        </div>
+                        <div class="book_btns">
+                            <div class="btn_add">
+                                <img src="img/Icon9.png" alt="">
+                                <span>В корзину</span>
+                            </div>
+                            <div class="btn_mark">
+                                <img src="img/Icon10.png" alt="">
+                            </div>
+                        </div></div>
+                    <div class="wrap-book book-fortie">
+                        <div class="labels">
+                            <div class="betseller item"><span>Бестселлер</span></div>
+                            <div class="new item"><span>Новинка</span></div>
+                            <div class="three item"><span>1+1=3</span></div>
+                        </div>
+                        <img src="img/image 142.png" alt="" class="book_img">
+                        <span class="book_field">Корпоративное право</span>
+                        <span class="book_title">Инвестирование: способы, риски, субъекты : монография</span>
+                        <span class="book_author">Майфат А.В.</span>
+                        <span class="book_price">450 ₽</span>
+                        <div class="recommend">
+                            <div class="star"><img src="img/🔹 Icon Color.png" alt=""><span>4,9</span></div>
+                            <div class="recom"><img src="img/Icon15.png" alt=""><span>89% рекомендуют</span></div>
+                        </div>
+                        <div class="book_btns">
+                            <div class="btn_add">
+                                <img src="img/Icon9.png" alt="">
+                                <span>В корзину</span>
+                            </div>
+                            <div class="btn_mark">
+                                <img src="img/Icon10.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-book book-sixtie">
+                        <div class="labels">
+                            <div class="betseller item"><span>Бестселлер</span></div>
+                            <div class="new item"><span>Новинка</span></div>
+                            <div class="three item"><span>1+1=3</span></div>
+                        </div>
+                        <img src="img/image 142.png" alt="" class="book_img">
+                        <span class="book_field">Корпоративное право</span>
+                        <span class="book_title">Инвестирование: способы, риски, субъекты : монография</span>
+                        <span class="book_author">Майфат А.В.</span>
+                        <span class="book_price">450 ₽</span>
+                        <div class="recommend">
+                            <div class="star"><img src="img/🔹 Icon Color.png" alt=""><span>4,9</span></div>
+                            <div class="recom"><img src="img/Icon15.png" alt=""><span>89% рекомендуют</span></div>
+                        </div>
+                        <div class="book_btns">
+                            <div class="btn_add">
+                                <img src="img/Icon9.png" alt="">
+                                <span>В корзину</span>
+                            </div>
+                            <div class="btn_mark">
+                                <img src="img/Icon10.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-book book-seventie">
+                        <div class="labels">
+                            <div class="betseller item"><span>Бестселлер</span></div>
+                            <div class="new item"><span>Новинка</span></div>
+                            <div class="three item"><span>1+1=3</span></div>
+                        </div>
+                        <img src="img/image 142.png" alt="" class="book_img">
+                        <span class="book_field">Корпоративное право</span>
+                        <span class="book_title">Инвестирование: способы, риски, субъекты : монография</span>
+                        <span class="book_author">Майфат А.В.</span>
+                        <span class="book_price">450 ₽</span>
+                        <div class="recommend">
+                            <div class="star"><img src="img/🔹 Icon Color.png" alt=""><span>4,9</span></div>
+                            <div class="recom"><img src="img/Icon15.png" alt=""><span>89% рекомендуют</span></div>
+                        </div>
+                        <div class="book_btns">
+                            <div class="btn_add">
+                                <img src="img/Icon9.png" alt="">
+                                <span>В корзину</span>
+                            </div>
+                            <div class="btn_mark">
+                                <img src="img/Icon10.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-all-books">
+                    <span>Показать все книги раздела</span>
+                </div>
+            </div>
+        </div>
+        <div class="gift">
+            <div class="container">
+                <p class="gift_title">Скидка 200 ₽ при подписке на рассылку Издательства</p>
+                <input type="text" class="gift_input" placeholder="Введите ваш Email">
+                <button class="gift_btn">Подписаться</button>
+            </div>
+        </div>
+        <div class="delivery">
+            <div class="container">
+                <div class="delivery-1 item">
+                    <img src="img/image 151.png" alt="" class="delivery_img">
+                    <div class="advant_info">
+                        <p class="delivery_title">Быстрая доставка</p>
+                        <p class="delivery_descr">Доставим бесплатно от 2000 ₽ по всей России</p>
+                    </div>
+                </div>
+                <div class="delivery-2 item">
+                    <img src="img/image 150.png" alt="" class="delivery_img">
+                    <div class="delivery_info">
+                        <p class="delivery_title">Безопасная оплата</p>
+                        <p class="delivery_descr">Плати безопасно и легко онлайн на нашем сайте.</p>
+                    </div>
+                </div>
+                <div class="delivery-3 item">
+                    <img src="img/image 149.png" alt="" class="delivery_img">
+                    <div class="delivery_info">
+                        <p class="delivery_title">Бонусная программа</p>
+                        <p class="delivery_descr">Дополнительная скидка 15% при регистрации</p>
+                    </div>
+                </div>
+                <div class="delivery-4 item">
+                    <img src="img/image 152.png" alt="" class="delivery_img">
+                    <div class="delivery_info">
+                        <p class="delivery_title">Большой выбор</p>
+                        <p class="delivery_descr">Ежегодно выходит в свет более 100 книг</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news_down">
+            <div class="container">
+                <div class="news_head slider_head">
+                    <h3 class="title">Новости</h3>
+                    <div class="head_btns">
+                        <button class="slide3-prev slide-btn"> < </button>
+                        <button class="slide3-next slide-btn"> > </button>
+                     </div>
+                </div>
+                <div class="news_slider">
+                    <div class="news-first item">
+                        <div class="img"><img src="img/Rectangle 932.png" alt=""></div>
+                        <span class="news_date">16 июня 2020</span>
+                        <p class="news_title">Бесплатный онлайн-семинар. Доктрина stare decisis: борьба за прецедент в рос...</p>
+                        <p class="news_descr">18 июня в «Клубе цивилистов» пройдет бесплатный онлайн-семинар по проблематике судебного прецедента. Мероприятие приуроч...</p>
+                        <button class="news_btn"><span>Читать</span></button>
+                    </div>
+                    <div class="news-secon item">
+                        <div class="img"><img src="img/Rectangle 933.png" alt=""></div>
+                        <span class="news_date">16 июня 2020</span>
+                        <p class="news_title">Бесплатный онлайн-семинар. Доктрина stare decisis: борьба за прецедент в рос...</p>
+                        <p class="news_descr">18 июня в «Клубе цивилистов» пройдет бесплатный онлайн-семинар по проблематике судебного прецедента. Мероприятие приуроч...</p>
+                        <button class="news_btn"><span>Читать</span></button>
+                    </div>
+                    <div class="news-third item">
+                        <div class="img"><img src="img/image 214.png" alt=""></div>
+                        <span class="news_date">16 июня 2020</span>
+                        <p class="news_title">Бесплатный онлайн-семинар. Доктрина stare decisis: борьба за прецедент в рос...</p>
+                        <p class="news_descr">18 июня в «Клубе цивилистов» пройдет бесплатный онлайн-семинар по проблематике судебного прецедента. Мероприятие приуроч...</p>
+                        <button class="news_btn"><span>Читать</span></button>
+                    </div>
+                    <div class="news-fortie item">
+                        <div class="img"><img src="img/image 214.png" alt=""></div>
+                        <span class="news_date">16 июня 2020</span>
+                        <p class="news_title">Бесплатный онлайн-семинар. Доктрина stare decisis: борьба за прецедент в рос...</p>
+                        <p class="news_descr">18 июня в «Клубе цивилистов» пройдет бесплатный онлайн-семинар по проблематике судебного прецедента. Мероприятие приуроч...</p>
+                        <button class="news_btn"><span>Читать</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__info-back">
+            <div class="footer__info container">
+                <img src="img/logo (1).png" alt="">
+                <form class="footer__form">
+                    <input type="text" placeholder="Введите свой Email и получите скидку" name="subscribe">
+                    <button>
+                        <img src="img/Shape.png" alt="">
+                    </button>
+                </form>
+                <div class="social">
+                    <a href="#">
+                        <img src="img/facebook.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/instagram.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/twitter.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__short container">
+            <div class="short-list">
+                <p class="main_p">Покупателям</p>
+                <ul>
+                    <li>
+                        <a href="#">Наша почта</a>
+                    </li>
+                    <li>
+                        <a href="#">Оплата и доставка</a>
+                    </li>
+                    <li>
+                        <a href="#">Вопросы и ответы</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="short-list">
+                <p class="main_p">Издательство</p>
+                <ul>
+                    <li>
+                        <a href="#">О компании</a>
+                    </li>
+                    <li>
+                        <a href="#">Авторам</a>
+                    </li>
+                    <li>
+                        <a href="#">Вакансии</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="short-list">
+                <p class="main_p">Книги</p>
+                <ul>
+                    <li>
+                        <a href="#">Все категории</a>
+                    </li>
+                    <li>
+                        <a href="#">Бестселлеры</a>
+                    </li>
+                    <li>
+                        <a href="#">Новинки</a>
+                    </li>
+                    <li>
+                        <a href="#">Скидки и акции</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="short-list">
+                <p class="main_p">Прайс-лист</p>
+                <ul>
+                    <li>
+                        <a class="dwn__price" href="">
+                            <img src="img/File.png" alt="">
+                            <div>
+                                <p>Скачать прайс-лист</p>
+                                <p>PDF, 12 Mb</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="short-list">
+                <p class="main_p">Телефон и Email</p>
+                <ul>
+                    <li class="footer__contacts">
+                        <a href="">
+                            <img src="img/Icon3.png" alt="">
+                            <p>market@estatut.ru</p>
+                        </a>
+                    </li>
+                    <li class="footer__contacts">
+                        <a href="">
+                            <img src="img/Icon2.png" alt="">
+                            <p>8 (968) 660-65-50</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__copyright container">
+            <p>© 2020 Издательство «Статут»</p>
+            <ul>
+                <li><a href="">ул. Лобачевского, 92, корп. 2 119454, г. Москва</a></li>
+                <li><a href="">Политика конфиденциальности</a></li>
+                <li><a href="">Договор оферты</a></li>
+            </ul>
+        </div>
+        <div class="mobile-footer container">
+            <ul class="short__drop-down">
+                <li>
+                    <p>Покупателям</p>
+                    <button class="drop-down__click"></button>
+                </li>
+
+                <li>
+                    <p>Издательство</p>
+                    <button class="drop-down__click"></button>
+                </li>
+
+                <li>
+                    <p>Книги</p>
+                    <button class="drop-down__click"></button>
+                </li>
+
+                <li>
+                    <p>Прайс-лист</p>
+                    <button class="drop-down__click"></button>
+                </li>
+            </ul>
+            <ul class="mobile-footer__contacts">
+                <li class="copyright">
+                    <p>Политика конфиденциальности</p>
+                    <p>Договор оферты</p>
+                </li>
+                <li class="footer__contact">
+                    <a href="">
+                        <img src="img/phone.png" alt="">
+                        <p>8 (968) 660-65-50</p>
+                        <img class="help-icon" src="img/help.png" alt="">
+                    </a>
+                </li>
+                <li class="footer__contact">
+                    <a href="">
+                        <img src="img/email.png" alt="">
+                        <p>market@estatut.ru</p>
+                    </a>
+                </li>
+                <li class="footer__link">
+                    <a href="">
+                        <img src="img/location.png" alt="">
+                        <p>ул. Лобачевского, 92, корп. 2 119454, г. Москва</p>
+                    </a>
+                </li>
+                <li class="copyright">
+                    <p>© 2020 Издательство «Статут»</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+     <script src="script.js"></script>
+</body>
+
+    
+</html>
